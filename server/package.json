@@ -1,0 +1,28 @@
+{
+  "name": "jukebot",
+  "version": "1.0.0",
+  "description": "Music streaming and recommendation web app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityaparab04/JukeBot.git"
+  },
+  "author": "Aditya Parab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adityaparab04/JukeBot/issues"
+  },
+  "homepage": "https://github.com/adityaparab04/JukeBot#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "axios": "^1.5.1",
+    "express": "^4.18.2"
+  }
+}
